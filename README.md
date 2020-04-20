@@ -34,7 +34,7 @@ library(ez)
 ## 5: Statistical Hypothesis
 
 _ANOVA: Primary Endpoint_
-**$H_0: \MS_{treatment} = \MS_{residual}$; The null hypothesis is that the variance associated with the four treatments is equal to the residual variance**
+**$H_0: MS<sub>treatment</sub> = MS<sub>residual</sub>$; The null hypothesis is that the variance associated with the four treatments is equal to the residual variance**
 
 **$H_1: \MS_{treatment} \neq \MS_{residual}$; The alternative hypothesis is that the variance associated with the four treatments is not equal to the residual variance.**
 
