@@ -34,9 +34,9 @@ library(ez)
 ## 5: Statistical Hypothesis
 
 _ANOVA: Primary Endpoint_
-**$H_0: MS<sub>treatment</sub> = MS<sub>residual</sub>$; The null hypothesis is that the variance associated with the four treatments is equal to the residual variance**
+**H_0: MS<sub>treatment</sub> = MS<sub>residual</sub>; The null hypothesis is that the variance associated with the four treatments is equal to the residual variance**
 
-**$H_1: \MS_{treatment} \neq \MS_{residual}$; The alternative hypothesis is that the variance associated with the four treatments is not equal to the residual variance.**
+**H_1: MS<sub>treatment</sub> \neq MS<sub>residual</sub>; The alternative hypothesis is that the variance associated with the four treatments is not equal to the residual variance.**
 
 _Post-Hoc: Secondary Endpoint_
 **$H_0: \mu_{treatment} \geq \mu_{dark}$; The null hypothesis is that the average freezing levels per treatment (40 Hz, 8 Hz, and random) are greater than or equal to the average freezing levels of dark treated animals.**
