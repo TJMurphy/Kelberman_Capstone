@@ -5,6 +5,8 @@ date: "4/22/2020"
 output: GitHub Page (Although my theme isn't working)
 ---
 
+## Initializing Library
+
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(ez)
