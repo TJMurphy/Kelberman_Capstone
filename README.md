@@ -2,7 +2,7 @@
 title: "Kelberman_Capstone"
 author: "Michael Kelberman"
 date: "4/22/2020"
-output: html_document
+output: GitHub Page (Although my theme isn't working)
 ---
 
 ```{r setup, include=FALSE}
