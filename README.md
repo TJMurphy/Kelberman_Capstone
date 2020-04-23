@@ -31,7 +31,7 @@ library(ez)
 
 ## 4: Variable Characteristics
 
-**The independent variable here is treatment group which has 4 levels (40 Hz, random, 8 Hz, and darkness) and is a discrete sorted variable. Darkness is a true, negative control where there is no intervention. 8 Hz and random stimulation represent two alternative stimulation parameters that represent positive controls (alternative stimulation patterns but are not supposed to be therapeutic but control for light stimulation itself). The dependent variable is percent freezing and this is a continous measured variable.**
+**The independent variable here is treatment group which has 4 levels (40 Hz, random, 8 Hz, and darkness) and is a discrete sorted variable. These variables are sorted rather than ordered because here, the pattern of stimulation matters more than the absolute amount. Thus, while each treatment can be "categorized" as more or less than another, the pattern is what matters more and thus they will be sorted. Darkness is a true, negative control where there is no intervention. 8 Hz and random stimulation represent two alternative stimulation parameters that represent positive controls (alternative stimulation patterns but are not supposed to be therapeutic but control for light stimulation itself). The dependent variable is percent freezing and this is a continous measured variable.**
 
 ## 5: Statistical Hypothesis
 
