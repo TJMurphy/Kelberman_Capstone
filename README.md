@@ -103,7 +103,7 @@ ggplot(dat, aes(Treatment, Percent_Freezing, color=Treatment))+
             Unconditioned Tone by Treatment Group")
 ```
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/64027898/80422112-8d527d00-88ab-11ea-9a0d-487ee4c1639f.png)
 
 **Simulated percent freezing data to an unconditioned tone by treatment group. Means and standard deviations are based on previously reported literature on conditioned fear paradigms. Normal mice trained on these regimens fear generalize by freezing approximately 65% of the time to the unconditioned tone. Mice that discriminate only freeze about 20% of the time to the same tone. The standard deviation of freezing behaviors remains similar across groups, about 15%. I also predict a slightly lower level of freezing in the 8 Hz treated mice, because the stimulation parameters are still biologically relevant, whereas the random stimulation should have no effect on freezing levels. I also expect that the 40 Hz stimulation will have the most dramatic effect on reducing freezing levels. All of this is reflected in my CRdataMaker function above.**
 
@@ -164,6 +164,9 @@ paste(t.pwr(4), sep="", "% power for t-test w/Bonferroni correction (dark vs. 40
 
 
 ```
+
+![image](https://user-images.githubusercontent.com/64027898/80422197-be32b200-88ab-11ea-9f77-3802257a1f13.png)
+
 **A sample size of 4 independent replicates per treatment group (16 animals total) is necessary for approximately 90% power (3 indepedent replicates per group only provides 70-75% power). 4 indepdent replicates per group will provide above 80% power for post-hoc t-tests with Bonferroni correction. Thus, a total sample size of 16 animals will be necessary for this experimental procedure.**
 
 
