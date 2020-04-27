@@ -102,6 +102,9 @@ ggplot(dat, aes(Treatment, Percent_Freezing, color=Treatment))+
     ggtitle("Predicted Percent Freezing to an 
             Unconditioned Tone by Treatment Group")
 ```
+
+![Uploading image.png…]()
+
 **Simulated percent freezing data to an unconditioned tone by treatment group. Means and standard deviations are based on previously reported literature on conditioned fear paradigms. Normal mice trained on these regimens fear generalize by freezing approximately 65% of the time to the unconditioned tone. Mice that discriminate only freeze about 20% of the time to the same tone. The standard deviation of freezing behaviors remains similar across groups, about 15%. I also predict a slightly lower level of freezing in the 8 Hz treated mice, because the stimulation parameters are still biologically relevant, whereas the random stimulation should have no effect on freezing levels. I also expect that the 40 Hz stimulation will have the most dramatic effect on reducing freezing levels. All of this is reflected in my CRdataMaker function above.**
 
 ## 9: Monte Carlo
